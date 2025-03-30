@@ -1,0 +1,157 @@
+/* .home1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 10rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  position: relative;
+} */
+.home1 div {
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  width: 95%;
+}
+.home1 h1 {
+  padding-top: 50px;
+  font-size: 60px;
+  width: 500px;
+  line-height: 70px;
+  justify-content: center;
+}
+
+.imageContainer {
+  position: relative;
+  width: 35%;
+  height: 60vh;
+}
+.home1 .con .text_container p {
+  font-size: 1.1rem;
+
+  color: #333;
+  width: 100%;
+  font-weight: lighter;
+
+  padding-top: 40px;
+}
+
+.imageContainer img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  box-shadow: 0 0 10px rgb(68, 54, 39);
+  transition: opacity 2.5s ease-in-out, transform 3s ease-in-out;
+}
+
+.imageContainer img.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.button2 {
+  font-size: 16px;
+  font-weight: normal;
+
+  background-color: #f2f6d0;
+  color: #d98324;
+  border: 1px solid #d98324;
+  padding: 0.2em 1.4em;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(239, 220, 171, 0.9);
+}
+.button1 {
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: normal;
+
+  background-color: #d98324;
+  color: rgb(239, 220, 171);
+  border: none;
+  padding: 0.2em 0.8em;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(217, 131, 36, 0.9);
+}
+.card {
+  position: absolute;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  opacity: 0.95;
+}
+.card img {
+  object-fit: cover;
+  object-position: center;
+}
+.line {
+  position: absolute;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  opacity: 0.95;
+}
+
+.text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  opacity: 0.95;
+  height: auto;
+  text-align: center;
+  margin-left: -50%;
+  max-width: 15%;
+}
+.text span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text span p {
+  font-size: 10px;
+  color: gray;
+  margin: 0;
+  width: 100px;
+  margin-top: 5px;
+  opacity: 0.6;
+  padding: 0;
+}
+
+.text h4 {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px 0;
+  margin-top: 0;
+}
+
+.text button {
+  background-color: rgb(217, 131, 36);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-top: 5px;
+  width: 60px;
+  text-align: center;
+  transition: 300ms ease-in-out;
+}
+
+.text button:hover {
+  background-color: rgb(68, 54, 39);
+}

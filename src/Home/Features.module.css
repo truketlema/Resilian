@@ -1,0 +1,39 @@
+.home11 {
+  text-align: center;
+  align-items: center;
+  padding-top: 7px;
+}
+.home11 h1 {
+  font-size: 2em;
+  color: #333;
+  opacity: 0.3;
+}
+.home11 ul li .icons {
+  color: #333;
+}
+.home11 ul li img {
+  width: 30px;
+}
+
+.home11 ul li .icons span {
+  opacity: 0.7;
+  margin: 0 0.5em;
+}
+
+.home11 ul {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  gap: 6em;
+  padding-top: 15px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+  text-decoration: none;
+}
